@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalina Auto Group</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <!-- Plyr -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/plyr@3/dist/plyr.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <div class="logo-container">
+        <a href="index.html">
+          <img class="logo" src="./img/logo.svg" alt="logo" />
+        </a>
+      </div>
+      <div class="header__menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="header__nav">
+        <li class="header__nav-item">
+          <a class="header__nav-link active" href="index.html">Главная</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="about.html">О нас</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="auto-selection.html">Авто-подбор</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="logistics.html">Логистика</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="auto-parts.html">Запчасти</a>
+        </li>
+        <li class="header__nav-item">
+          <a
+            class="header__nav-link"
+            onclick="scrollToSection('.footer__contact')"
+            >Контакты</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+    <section class="hero section">
+      <div class="container">
+        <div class="hero__inner">
+          <h1
+            class="hero__title wow animate__animated animate__fadeInRight"
+            data-wow-delay="0s"
+            data-wow-duration="1s"
+          >
+            KALINA AUTO GROUP
+          </h1>
+
+          <p
+            class="hero__description wow animate__animated animate__fadeInRight"
+            data-wow-delay="0.3s"
+            data-wow-duration="1s"
+          >
+            Решение задач любой сложности на рынке логистики в кратчайшие сроки
+          </p>
+
+          <button
+            class="hero__button wow animate__animated animate__fadeInRight"
+            data-wow-delay="0.6s"
+            data-wow-duration="1s"
+          >
+            НАЧАТЬ РАБОТУ
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section">
+      <div class="about__container">
+        <div class="about__inner">
+          <img src="./img/speedometer.jpg" alt="speedometer" />
+          <div class="about__info">
+            <h2 class="about__title">KALINA AUTO GROUP -</h2>
+            <p class="about__description">
+              это 20 лет опыта в сфере логистики, партнерские отношения с
+              отечественными и зарубежными лидерами отрасли, а также штат
+              квалифицированных специалистов. Набор этих факторов позволяет нам
+              стабильно предоставлять качественные логистические услуги нашим
+              клиентам на самых выгодных условиях. <br />
+              <br />
+              Нужно доставить груз из-за границы или по регионам? Нужно
+              подобрать авто из Европы/Канады в наилучшем состоянии и привезти
+              его по цене ниже рынка РФ? Тогда специалисты Kalina Auto Group с
+              радостью помогут Вам!
+            </p>
+            <button class="about__button">БОЛЬШЕ О НАС</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services section">
+      <div class="container">
+        <div class="services__inner">
+          <h2 class="services__title">НАШИ УСЛУГИ</h2>
+          <div class="services__cards">
+            <div
+              class="services__card wow animate__animated animate__fadeInRight"
+              data-wow-delay="0"
+              data-wow-duration="1s"
+            >
+              <div class="services__card-icon">
+                <img src="./img/car.svg" alt="авто-подбор" />
+              </div>
+              <h3 class="services__card-title">АВТО-ПОДБОР</h3>
+              <p class="services__card-description">
+                Устали от ограниченного выбора в автосалонах и на автомобильных
+                площадках? Раздражают заоблачные цены у дилеров и перекупщиков?
+                Тогда Вам точно понравится наша услуга персонального подбора,
+                которая откроет для Вас новые горизонты в поисках идеального
+                авто с выгодой 40% от рынка.
+              </p>
+              <button class="services__card-button">ПОДОБРАТЬ АВТО</button>
+            </div>
+
+            <div
+              class="services__card wow animate__animated animate__fadeInRight"
+              data-wow-delay="0.3s"
+              data-wow-duration="1s"
+            >
+              <div class="services__card-icon">
+                <img src="./img/logistic.svg" alt="логистика" />
+              </div>
+              <h3 class="services__card-title">ЛОГИСТИКА</h3>
+              <p class="services__card-description">
+                Доверьте свой груз надежному и стабильному партнеру, который
+                обеспечит его безопасную и своевременную доставку. Наша компания
+                располагает обширным собственным автопарком, включающим
+                специализированные транспортные средства для самых разных
+                потребностей.
+              </p>
+              <button class="services__card-button">ПОДРОБНЕЕ</button>
+            </div>
+            <div
+              class="services__card wow animate__animated animate__fadeInRight"
+              data-wow-delay="0.6s"
+              data-wow-duration="1s"
+            >
+              <div class="services__card-icon">
+                <img src="./img/auto-parts.svg" alt="автозапчасти" />
+              </div>
+              <h3 class="services__card-title">АВТОЗАПЧАСТИ</h3>
+              <p class="services__card-description">
+                Наш специалист поможет подобрать нужную запчасть, гарантируя
+                полную совместимость с вашим транспортным средством. Собственная
+                система логистики позволяет нам подобрать и доставить нужную Вам
+                деталь в кратчайшие сроки.
+              </p>
+              <button class="services__card-button">ЗАКАЗАТЬ</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="offers section">
+      <div class="container">
+        <div class="offers__inner">
+          <div class="offers__left">
+            <img
+              class="offers__img"
+              src="./img/phone-mockup.png"
+              alt="phone mockup"
+            />
+          </div>
+          <div class="offers__info">
+            <h2 class="offers__title">ЕЖЕДНЕВНЫЕ ПРЕДЛОЖЕНИЯ ПО АВТО ИЗ ЕС</h2>
+            <p class="offers__description">
+              Вы можете получить самые выгодные предложения по авто из Европы,
+              присоединившись к нам в Telegram. Не упустите возможность самой
+              выгодной сделки!
+            </p>
+            <h3 class="offers__subtitle">Присоединяйтесь уже сейчас!</h3>
+            <button class="offers__button">
+              <img
+                class="offers__button-icon"
+                src="./img/telegram.svg"
+                alt="telegram"
+              />
+              <span class="offers__button-text">Telegram</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="advantages section">
+      <div class="container">
+        <div class="advantages__inner">
+          <h2 class="advantages__title">ПРЕИМУЩЕСТВА РАБОТЫ С НАМИ</h2>
+          <div class="advantages__cards">
+            <div
+              class="advantages__card wow animate__animated animate__fadeInLeft"
+              data-wow-delay="0"
+              data-wow-duration="1s"
+            >
+              <div class="advantages__card-icon">
+                <img src="./img/transparency.svg" alt="прозрачность" />
+              </div>
+              <div class="advantages__card-body">
+                <h3 class="advantages__card-title">
+                  ПРОЗРАЧНОСТЬ И ОТКРЫТОСТЬ
+                </h3>
+                <p class="advantages__card-description">
+                  — это основа нашей работы. Все условия, комиссии и платежи
+                  чётко указаны в договоре без скрытых затрат.
+                </p>
+              </div>
+            </div>
+            <div
+              class="advantages__card wow animate__animated animate__fadeInRight"
+              data-wow-delay="0.3s"
+              data-wow-duration="1s"
+            >
+              <div class="advantages__card-icon">
+                <img src="./img/expertise.svg" alt="экспертность" />
+              </div>
+              <div class="advantages__card-body">
+                <h3 class="advantages__card-title">ЭКСПЕРТНОСТЬ</h3>
+                <p class="advantages__card-description">
+                  Штат опытных специалистов и превосходный контроль всех
+                  процессов. Наша команда - профессионалы, которые могут решить
+                  задачи любого уровня сложности.
+                </p>
+              </div>
+            </div>
+            <div
+              class="advantages__card wow animate__animated animate__fadeInLeft"
+              data-wow-delay="0.6s"
+              data-wow-duration="1s"
+            >
+              <div class="advantages__card-icon">
+                <img src="./img/shield-check.svg" alt="контроль" />
+              </div>
+              <div class="advantages__card-body">
+                <h3 class="advantages__card-title">КОНТРОЛЬ КАЧАСТВА</h3>
+                <p class="advantages__card-description">
+                  Контроль качества: Загрузка, транспортировка, прием грузов и
+                  авто — все под личным контролем. Наши менеджеры тщательно
+                  контролируют каждый этап цепочки.
+                </p>
+              </div>
+            </div>
+            <div
+              class="advantages__card wow animate__animated animate__fadeInRight"
+              data-wow-delay="0.9s"
+              data-wow-duration="1s"
+            >
+              <div class="advantages__card-icon">
+                <img src="./img/time-fast.svg" alt="оперативность" />
+              </div>
+              <div class="advantages__card-body">
+                <h3 class="advantages__card-title">ОПЕРАТИВНОСТЬ</h3>
+                <p class="advantages__card-description">
+                  Благодаря нашим уникальным подходам в работе, мы обеспечиваем
+                  самую оперативную доставку грузов и авто.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="get-started section">
+      <div class="container">
+        <div class="get-started__inner">
+          <div class="get-started__info">
+            <h2 class="get-started__title">как начать работу с нами?</h2>
+            <ul class="get-started__list">
+              <li class="get-started__item">
+                <img src="./img/check.svg" alt="check" />
+                <span>Определиться с моделью желаемого авто.</span>
+              </li>
+              <li class="get-started__item">
+                <img src="./img/check.svg" alt="check" />
+                <span>Присоединиться к нам в Telegram.</span>
+              </li>
+              <li class="get-started__item">
+                <img src="./img/check.svg" alt="check" />
+                <span>Начать работу с нашим менеджером.</span>
+              </li>
+            </ul>
+            <button class="get-started__button">Начать работу</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="deals section">
+      <div class="container">
+        <h2 class="deals__title">АКТУАЛЬНЫЕ ПРЕДЛОЖЕНИЯ</h2>
+        <div class="deals__list">
+          <div class="deals__item">
+            <img
+              class="deals__img"
+              src="./img/deals/nissan.jpg"
+              alt="Nissan X-Trail"
+            />
+            <div class="deals__content">
+              <h3 class="deals__name">Nissan X-Trail</h3>
+              <div class="deals__details">
+                <span class="deals__details-item">
+                  <img src="./img/deals/calendar.svg" alt="year" />
+                  2010</span
+                >
+                <span class="deals__details-item">
+                  <img src="./img/deals/car-icon.svg" alt="power" />
+                  177 л.с.</span
+                >
+                <span class="deals__details-item">
+                  <img src="./img/deals/gas-pump.svg" alt="fuel" />
+                  бензин</span
+                >
+                <span class="deals__details-item">
+                  <img src="./img/deals/track.svg" alt="km" />
+                  127,000 км.</span
+                >
+              </div>
+              <p class="deals__price">Цена: 16,500 евро</p>
+              <button class="deals__button">Подробнее</button>
+            </div>
+          </div>
+
+          <div class="deals__item">
+            <img
+              class="deals__img"
+              src="./img/deals/mazda.jpg"
+              alt="Mazda CX-3 SKYACTIV S-Line"
+            />
+            <div class="deals__content">
+              <h3 class="deals__name">Mazda CX-3 SKYACTIV S-Line</h3>
+              <div class="deals__details">
+                <span class="deals__details-item">
+                  <img src="./img/deals/calendar.svg" alt="year" />
+                  2018</span
+                >
+                <span class="deals__details-item">
+                  <img src="./img/deals/car-icon.svg" alt="power" />
+                  120 л.с.</span
+                >
+                <span class="deals__details-item">
+                  <img src="./img/deals/gas-pump.svg" alt="fuel" />
+                  бензин</span
+                >
+                <span class="deals__details-item">
+                  <img src="./img/deals/track.svg" alt="km" />
+                  38,000 км</span
+                >
+              </div>
+              <p class="deals__price">Цена: 16,500 евро</p>
+              <button class="deals__button">Подробнее</button>
+            </div>
+          </div>
+
+          <div class="deals__item">
+            <img
+              class="deals__img"
+              src="./img/deals/kia.jpg"
+              alt="Kia Sorento 2.0 CRDI XL"
+            />
+            <div class="deals__content">
+              <h3 class="deals__name">Kia Sorento 2.0 CRDI XL</h3>
+              <div class="deals__details">
+                <span class="deals__details-item">
+                  <img src="./img/deals/calendar.svg" alt="year" />
+                  2015</span
+                >
+                <span class="deals__details-item">
+                  <img src="./img/deals/car-icon.svg" alt="power" />
+                  185 л.с.</span
+                >
+                <span class="deals__details-item">
+                  <img src="./img/deals/gas-pump.svg" alt="fuel" />
+                  дизель</span
+                >
+                <span class="deals__details-item">
+                  <img src="./img/deals/track.svg" alt="km" />
+                  261,000 км.</span
+                >
+              </div>
+              <p class="deals__price">Цена: 16,500 евро</p>
+              <button class="deals__button">Подробнее</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews section">
+      <div class="container">
+        <!-- Заголовок и навигация (кнопки расположены справа от заголовка) -->
+        <div class="reviews__header">
+          <h2 class="reviews__title">ОТЗЫВЫ НАШИХ КЛИЕНТОВ</h2>
+          <div class="reviews__nav">
+            <button class="reviews__nav-btn reviews__nav-btn--prev">
+              <svg
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke="currentColor"
+                  stroke-width="0.048"
+                />
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M15 7L10 12L15 17"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+              </svg>
+            </button>
+
+            <button class="reviews__nav-btn reviews__nav-btn--next">
+              <svg
+                width="800px"
+                height="800px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                transform="matrix(-1, 0, 0, -1, 0, 0)"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke="currentColor"
+                  stroke-width="0.048"
+                />
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M15 7L10 12L15 17"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </g>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Слайдер с 3-мя слайдами -->
+        <div class="reviews__slider swiper">
+          <div class="swiper-wrapper">
+            <!-- Слайд 1 -->
+            <div class="reviews__item swiper-slide">
+              <div class="reviews__video-wrapper">
+                <video class="reviews__video plyr" controls>
+                  <source src="videos/review1.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="reviews__info">
+                <div class="reviews__info-left">
+                  <p class="reviews__name">Федор</p>
+                  <p class="reviews__city">Владимир</p>
+                </div>
+                <div class="reviews__info-right">
+                  <p class="reviews__car">Tesla Model 3</p>
+                </div>
+              </div>
+            </div>
+            <!-- Слайд 2 -->
+            <div class="reviews__item swiper-slide">
+              <div class="reviews__video-wrapper">
+                <video class="reviews__video plyr" controls>
+                  <source src="videos/review2.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="reviews__info">
+                <div class="reviews__info-left">
+                  <p class="reviews__name">Алиса</p>
+                  <p class="reviews__city">Хабаровск</p>
+                </div>
+                <div class="reviews__info-right">
+                  <p class="reviews__car">Mazda CX-5</p>
+                </div>
+              </div>
+            </div>
+            <!-- Слайд 3 -->
+            <div class="reviews__item swiper-slide">
+              <div class="reviews__video-wrapper">
+                <video class="reviews__video plyr" controls>
+                  <source src="videos/review3.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="reviews__info">
+                <div class="reviews__info-left">
+                  <p class="reviews__name">Иван</p>
+                  <p class="reviews__city">Новосибирск</p>
+                </div>
+                <div class="reviews__info-right">
+                  <p class="reviews__car">BMW X5</p>
+                </div>
+              </div>
+            </div>
+            <div class="reviews__item swiper-slide">
+              <div class="reviews__video-wrapper">
+                <video class="reviews__video plyr" controls>
+                  <source src="videos/review3.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="reviews__info">
+                <div class="reviews__info-left">
+                  <p class="reviews__name">Иван</p>
+                  <p class="reviews__city">Новосибирск</p>
+                </div>
+                <div class="reviews__info-right">
+                  <p class="reviews__car">BMW X5</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__contact">
+        <h2 class="footer__contact-title">Контакты</h2>
+        <div class="footer__contact-info">
+          <div class="footer__contact-item">
+            <h3 class="footer__contact-subtitle">Телефон</h3>
+            <p class="footer__contact-description">+7 (980) 000-00-00</p>
+          </div>
+          <div class="footer__contact-item">
+            <h3 class="footer__contact-subtitle">E-MAIL</h3>
+            <p class="footer__contact-description">kalinaautogroup@gmail.com</p>
+          </div>
+          <div class="footer__contact-item">
+            <h3 class="footer__contact-subtitle">АДРЕС</h3>
+            <p class="footer__contact-description">
+              г. Казань, ул. Большая Невская, 65, офис 4
+            </p>
+          </div>
+        </div>
+        <ul class="footer__contact-list">
+          <li class="footer__contact-item">
+            <a class="footer__contact-link" href="#">
+              <img src="./img/telegram.svg" alt="telegram" />
+            </a>
+          </li>
+          <li class="footer__contact-item">
+            <a class="footer__contact-link" href="#">
+              <img src="./img/youtube.svg" alt="youtube" />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__form">
+        <h2 class="footer__form-title">СВЯЖИТЕСЬ С НАМИ</h2>
+        <p class="footer__form-description">
+          Заполните форму, чтобы получить консультацию нашего менеджера
+        </p>
+        <form>
+          <div class="form__group">
+            <div class="form__group-item">
+              <label for="first-name">Имя</label>
+              <input
+                class="form__input"
+                id="first-name"
+                type="text"
+                name="first-name"
+                placeholder="Имя"
+                required
+              />
+            </div>
+            <div class="form__group-item">
+              <label for="last-name">Фамилия</label>
+              <input
+                class="form__input form__input--last"
+                id="last-name"
+                type="text"
+                name="last-name"
+                placeholder="Фамилия"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form__group">
+            <div class="form__group-comment">
+              <label for="comment">Комментарий</label>
+              <textarea
+                class="form__textarea"
+                id="comment"
+                name="comment"
+                placeholder="Комментарий"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="form__group">
+            <button class="form__button" type="submit">Отправить</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+ <div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <div class="modal__content">
+      <button class="modal__close" id="modalClose">&times;</button>
+      <div class="modal__form">
+        <h2 class="modal__form-title">СВЯЖИТЕСЬ С НАМИ</h2>
+        <p class="modal__form-description">
+          Заполните форму, чтобы получить консультацию нашего менеджера
+        </p>
+        <form>
+          <div class="modal__form-group">
+            <div class="modal__form-item">
+              <label for="modal-first-name">Имя</label>
+              <input
+                class="modal__input"
+                id="modal-first-name"
+                type="text"
+                name="modal-first-name"
+                placeholder="Имя"
+                required
+              />
+            </div>
+            <div class="modal__form-item">
+              <label for="modal-last-name">Фамилия</label>
+              <input
+                class="modal__input"
+                id="modal-last-name"
+                type="text"
+                name="modal-last-name"
+                placeholder="Фамилия"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="modal__form-group">
+            <div class="modal__form-comment">
+              <label for="modal-comment">Комментарий</label>
+              <textarea
+                class="modal__textarea"
+                id="modal-comment"
+                name="modal-comment"
+                placeholder="Комментарий"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="modal__form-group">
+            <button class="modal__button" type="submit">Отправить</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <button id="scrollToTop" class="scroll-to-top" title="Наверх">⮝</button>
+    <div class="phone-icon" id="phoneIcon">
+      <img src="./img/phone.png" />
+    </div>
+
+    <!-- WOW.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- Plyr -->
+    <script src="https://cdn.jsdelivr.net/npm/plyr@3"></script>
+    <script src="./js/index.bundle.js"></script>
+  </body>
+</html>
