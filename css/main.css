@@ -366,7 +366,7 @@ legend {
 }
 @font-face {
   font-family: "Babes Neue Cyrillic";
-  src: url("../../fonts/bebasneuecyrillic.ttf") format("truetype");
+  src: url("../fonts/bebasneuecyrillic.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -756,7 +756,7 @@ html, body {
   z-index: 2;
 }
 .hero--about {
-  background: url("../../img/about-hero.jpg") no-repeat center center;
+  background: url("../img/about-hero.jpg") no-repeat center center;
   background-size: cover;
 }
 .hero--about__inner {
@@ -973,7 +973,7 @@ html, body {
   z-index: 2;
 }
 .hero--auto-parts {
-  background: url("../../img/auto-parts-hero.jpg") no-repeat center center;
+  background: url("../img/auto-parts-hero.jpg") no-repeat center center;
   background-size: cover;
 }
 .hero--auto-parts__inner {
@@ -1336,7 +1336,7 @@ html, body {
   z-index: 2;
 }
 .hero--auto-selection {
-  background: url("../../img/auto-selection-hero.jpg") no-repeat center center;
+  background: url("../img/auto-selection-hero.jpg") no-repeat center center;
   background-size: cover;
 }
 .hero--auto-selection__inner {
@@ -1836,7 +1836,7 @@ html, body {
   z-index: 2;
 }
 .hero {
-  background: url("../../img/hero.jpg") no-repeat center center;
+  background: url("../img/hero.jpg") no-repeat center center;
   background-size: cover;
 }
 .hero__inner {
@@ -2110,7 +2110,7 @@ html, body {
   align-items: center;
   justify-content: flex-start;
   height: 461px;
-  background: url("../../img/parking.jpg") no-repeat right center;
+  background: url("../img/parking.jpg") no-repeat right center;
 }
 .get-started__info {
   width: 757px;
@@ -2493,7 +2493,7 @@ html, body {
   z-index: 2;
 }
 .hero--logistics {
-  background: url("../../img/logistics-hero.jpg") no-repeat center center;
+  background: url("../img/logistics-hero.jpg") no-repeat center center;
   background-size: cover;
 }
 .hero--logistics__inner {
